@@ -1,0 +1,19 @@
+{
+  "name": "git-ref-tags",
+  "version": "1.0.0",
+  "description": "Get tags and hash from remote git repository",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/clownvary/git-ref-tags.git"
+  },
+  "keywords": [
+    "git",
+    "tag",
+    "tas",
+    "semver"
+  ],
+  "author": "clownvary",
+  "license": "MIT",
+  "homepage": "https://github.com/clownvary/git-ref-tags"
+}
