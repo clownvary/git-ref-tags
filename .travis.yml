@@ -1,12 +1,7 @@
-sudo: required
-dist: trusty
-
 language: node_js
 
-before_install:
-  - npm cache clean -f
-  - sudo npm install -g n
-  - sudo n stable
+node_js:
+- 'lts/*'
 install:
   - npm install
 
