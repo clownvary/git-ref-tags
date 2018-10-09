@@ -1,7 +1,7 @@
 const exec = require('child_process').execSync;
 
 /**
- * 
+ *
  * @param {string} repoUrl a repository url which you want to get tags
  */
 function getTags(repoUrl) {
