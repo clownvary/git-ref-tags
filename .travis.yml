@@ -2,8 +2,17 @@ sudo: required
 dist: trusty
 
 language: node_js
+
+before_install:
+  - npm cache clean -f
+  - sudo npm install -g n
+  - sudo n stable
 install:
-   - npm install
-script:
-  - npm run lint
-  - npm run test
+  - npm install
+
+jobs:
+  include:
+    - stage: Eslint # uses the default stage name "test"
+    - script: npm run lint
+    - stage: Test
+    - script: npm run test
