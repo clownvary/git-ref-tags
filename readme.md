@@ -1,4 +1,8 @@
 # git-ref-tags
+[![npm](https://img.shields.io/npm/v/git-ref-tags.svg)](https://www.npmjs.com/package/git-ref-tags)
+[![Build Status](https://travis-ci.com/clownvary/git-ref-tags.svg?branch=master)](https://travis-ci.com/clownvary/git-ref-tags)
+[![codecov](https://codecov.io/gh/clownvary/git-ref-tags/branch/master/graph/badge.svg)](https://codecov.io/gh/clownvary/git-ref-tags)
+
 
 > A lib to get tags and hash from remote git repository(github/gitlab)
 
